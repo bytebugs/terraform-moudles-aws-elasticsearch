@@ -1,0 +1,24 @@
+/*----Ignoring AWS Credentials-----*/
+
+.terraform
+*tfplan*
+*bak
+*back
+*backup
+*tfstate
+*.zip
+*.py[cmo]
+.log
+.tmp
+.crt
+
+# Amazon related service credentials
+credentials.txt
+credentials.tf
+*.swp
+bcf_credentials.txt
+
+# Ignore private and public key files
+*.pub
+*.pem
+*.ppk
